@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Logs & Backups (Security Risk!)
+logs/
+backups/
+*.log
+*.bak
+*.key
+*.pem
+
+# Config secrets (যদি পাসওয়ার্ড থাকে)
+.env
+config.local.yaml
+
+# OS specific
+.DS_Store
+Thumbs.db
