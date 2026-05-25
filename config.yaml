@@ -1,0 +1,8 @@
+orchestrator:
+  dry_run: true
+  log_dir: "logs"
+  backup_dir: "backups"
+  modules:
+    host_hardening: true
+    network_defense: true
+    logging_monitoring: true
